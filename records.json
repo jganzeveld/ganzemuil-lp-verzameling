@@ -391,13 +391,13 @@
   },
   {
     "id": 40,
-    "artist": "Neerlands Hoop Express",
-    "album": "Flodder",
-    "year": "~1976",
+    "artist": "Neerlands Hoop in Bange Dagen",
+    "album": "Interieur",
+    "year": "1977",
     "genre": "Dutch",
     "coverImage": "covers/PXL_20251122_102523593.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Laat Eens Wat Van Je ☎", "De Tol Van De Roem", "Vanavond Improviseren Wij Niet", "Ik Ben Een Pindarotsje", "Thuis", "En Ik Hier Maar Kreperen", "Arbeider Dat Heb Je Er Nou Van", "Nieuwe Woorden Leren", "Steek Eens Op", "De Uren Waarin Niets Gebeurt", "Ik Sta Hier En Jij Zit Thuis", "De Vrouw Als Medemens", "Scheiden Doet Lijden", "De Oude Vrouw", "Over Naar Appelscha", "Terug Naar De Studio", "Schuld", "Werken In Een Kolenmijn", "Doe De Ballenkneller", "Gezinsplanning '77", "Ze Brengen Je Ter Wereld", "Van Konartel En Kneisterbek", "Slaapliedje"]
   },
   {
     "id": 41,
