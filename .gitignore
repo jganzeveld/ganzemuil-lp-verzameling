@@ -1,6 +1,10 @@
-*.jpg
-*.jpeg
-*.png
-*.JPG
-*.JPEG
-*.PNG
+# Exclude user photos in root directory
+/*.jpg
+/*.jpeg
+/*.png
+/*.JPG
+/*.JPEG
+/*.PNG
+
+# But include album covers
+!covers/
