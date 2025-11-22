@@ -6,5 +6,6 @@
 /*.JPEG
 /*.PNG
 
-# But include album covers
+# But include album covers and logo
 !covers/
+!goose.jpg
