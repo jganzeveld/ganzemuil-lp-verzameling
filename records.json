@@ -1,32 +1,552 @@
 [
   {
     "id": 1,
-    "artist": "Kate Bush",
-    "album": "The Kick Inside",
-    "year": 1978,
+    "artist": "10cc",
+    "album": "Bloody Tourists",
+    "year": null,
     "genre": "Art Rock",
-    "coverImage": "covers/kate-bush.jpg",
-    "userImage": "PXL_20251122_100737615.jpg",
+    "coverImage": "covers/original_ef535f29-ac8f-4ece-bf43-f7eb0cbef5d1_PXL_20251122_101759448.jpg",
+    "status": "complete",
     "tracks": []
   },
   {
     "id": 2,
-    "artist": "Jim Reeves",
-    "album": "Golden Records",
+    "artist": "The Alan Parsons Project",
+    "album": "I Robot",
     "year": null,
-    "genre": "Country",
-    "coverImage": "covers/jim-reeves.jpg",
-    "userImage": "PXL_20251122_100737615 (1).jpg",
+    "genre": "Progressive Rock",
+    "coverImage": "covers/PXL_20251122_102127188.jpg",
+    "status": "complete",
     "tracks": []
   },
   {
     "id": 3,
+    "artist": "Anita Meyer",
+    "album": "In the Meantime I Will Sing",
+    "year": null,
+    "genre": "Pop",
+    "coverImage": "covers/PXL_20251122_102759155.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 4,
+    "artist": "AVRO Kinderkoor",
+    "album": "Zingen bij de Kerstboom",
+    "year": null,
+    "genre": "Children's/Christmas",
+    "coverImage": "covers/original_45d97ae0-f90c-450b-aa67-cfeda956f241_PXL_20251122_101823409.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 5,
+    "artist": "Bad Company",
+    "album": "Desolation Angels",
+    "year": null,
+    "genre": "Rock",
+    "coverImage": "covers/PXL_20251122_102009609.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 6,
+    "artist": "The Beatles",
+    "album": "1962-1966 (The Red Album)",
+    "year": 1966,
+    "genre": "Rock",
+    "coverImage": "covers/PXL_20251122_102645504.MP.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 7,
+    "artist": "The Beatles",
+    "album": "1967-1970 (The Blue Album)",
+    "year": 1970,
+    "genre": "Rock",
+    "coverImage": "covers/PXL_20251122_102635043.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 8,
+    "artist": "Benny Neyman",
+    "album": "Gouden Regen",
+    "year": null,
+    "genre": "Dutch Pop",
+    "coverImage": "covers/PXL_20251122_102722963.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 9,
+    "artist": "Benny Neyman",
+    "album": "Samen Zijn We Rijk",
+    "year": null,
+    "genre": "Dutch Pop",
+    "coverImage": "covers/PXL_20251122_102625389.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 10,
+    "artist": "Michael Bublé",
+    "album": "Christmas",
+    "year": null,
+    "genre": "Christmas",
+    "coverImage": "covers/PXL_20251122_102900238.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 11,
+    "artist": "The Byrds",
+    "album": "1964-1971",
+    "year": 1971,
+    "genre": "Folk Rock",
+    "coverImage": "covers/PXL_20251122_102000719.MP.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 12,
+    "artist": "Crosby, Stills, Nash & Young",
+    "album": "Unknown Album",
+    "year": null,
+    "genre": "Folk Rock",
+    "coverImage": "covers/PXL_20251122_102113612.jpg",
+    "status": "vinyl_only",
+    "tracks": []
+  },
+  {
+    "id": 13,
+    "artist": "Deep Purple",
+    "album": "Burn",
+    "year": null,
+    "genre": "Hard Rock",
+    "coverImage": "covers/PXL_20251122_102041888.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 14,
+    "artist": "Deep Purple",
+    "album": "Concerto for Group and Orchestra",
+    "year": null,
+    "genre": "Rock",
+    "coverImage": "covers/PXL_20251122_102423215.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 15,
+    "artist": "Deep Purple",
+    "album": "Fireball",
+    "year": null,
+    "genre": "Hard Rock",
+    "coverImage": "covers/PXL_20251122_102049219.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 16,
+    "artist": "Deep Purple",
+    "album": "In Rock",
+    "year": null,
+    "genre": "Hard Rock",
+    "coverImage": "covers/PXL_20251122_102819681.MP.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 17,
+    "artist": "Deep Purple",
+    "album": "Machine Head",
+    "year": null,
+    "genre": "Hard Rock",
+    "coverImage": "covers/PXL_20251122_102025468.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 18,
+    "artist": "Deep Purple",
+    "album": "Made in Japan",
+    "year": null,
+    "genre": "Hard Rock",
+    "coverImage": "covers/PXL_20251122_102839970.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 19,
+    "artist": "Deep Purple",
+    "album": "Stormbringer",
+    "year": null,
+    "genre": "Hard Rock",
+    "coverImage": "covers/PXL_20251122_102034198.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 20,
+    "artist": "Deep Purple",
+    "album": "Who Do We Think We Are",
+    "year": null,
+    "genre": "Hard Rock",
+    "coverImage": "covers/PXL_20251122_102415302.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 21,
+    "artist": "Dionne Warwick",
+    "album": "Golden Voice of Dionne Warwicke",
+    "year": null,
+    "genre": "Pop",
+    "coverImage": "covers/PXL_20251122_102906946.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 22,
+    "artist": "Dionne Warwick",
+    "album": "That's Entertainment 2",
+    "year": null,
+    "genre": "Pop",
+    "coverImage": "covers/PXL_20251122_102735555.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 23,
+    "artist": "Doe Maar",
+    "album": "Doris Day en andere stukken",
+    "year": null,
+    "genre": "Dutch Pop",
+    "coverImage": "covers/original_aa9f1da6-b0ad-469f-af8e-e98fa2bcef2d_PXL_20251122_101859836.jpg",
+    "status": "empty_case",
+    "tracks": []
+  },
+  {
+    "id": 24,
+    "artist": "Donna Summer",
+    "album": "Once Upon a Time",
+    "year": null,
+    "genre": "Disco",
+    "coverImage": "covers/PXL_20251122_101933040.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 25,
+    "artist": "Dr. Hook",
+    "album": "A Little Bit More",
+    "year": null,
+    "genre": "Pop Rock",
+    "coverImage": "covers/original_fe075e4f-df5c-4840-95dd-570b901b7acf_PXL_20251122_101849900.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 26,
+    "artist": "Eagles",
+    "album": "Hotel California",
+    "year": null,
+    "genre": "Rock",
+    "coverImage": "covers/PXL_20251122_102826999.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 27,
+    "artist": "Eagles",
+    "album": "One of These Nights",
+    "year": null,
+    "genre": "Rock",
+    "coverImage": "covers/PXL_20251122_102616173.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 28,
+    "artist": "Electric Light Orchestra",
+    "album": "Out of the Blue",
+    "year": null,
+    "genre": "Rock",
+    "coverImage": "covers/PXL_20251122_102833362.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 29,
+    "artist": "Fleetwood Mac",
+    "album": "Fleetwood Mac",
+    "year": null,
+    "genre": "Rock",
+    "coverImage": "covers/original_c3a05d56-0394-4ccf-8e91-78fa21dcea1d_PXL_20251122_101914345.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 30,
+    "artist": "Gerry Rafferty",
+    "album": "City to City",
+    "year": null,
+    "genre": "Rock",
+    "coverImage": "covers/PXL_20251122_102205017.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 31,
+    "artist": "Jan en Astrid",
+    "album": "Unknown Album",
+    "year": null,
+    "genre": "Dutch Pop",
+    "coverImage": "covers/PXL_20251122_102450473.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 32,
+    "artist": "Jim Reeves",
+    "album": "Golden Records",
+    "year": null,
+    "genre": "Country",
+    "coverImage": "covers/PXL_20251122_100737615 (1).jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 33,
+    "artist": "Joe Cocker",
+    "album": "The Best of Joe Cocker",
+    "year": null,
+    "genre": "Rock",
+    "coverImage": "covers/original_4ffe5216-654f-4f4d-952b-e473d3913c05_PXL_20251122_101814076.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 34,
+    "artist": "Joe Jackson",
+    "album": "Night and Day",
+    "year": null,
+    "genre": "New Wave",
+    "coverImage": "covers/PXL_20251122_101949770.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 35,
+    "artist": "John Woodhouse",
+    "album": "Laatste Liedjes",
+    "year": null,
+    "genre": "Accordion",
+    "coverImage": "covers/PXL_20251122_102602078.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 36,
+    "artist": "Kate Bush",
+    "album": "The Kick Inside",
+    "year": 1978,
+    "genre": "Art Rock",
+    "coverImage": "covers/PXL_20251122_100737615.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 37,
+    "artist": "Manfred Mann's Earth Band",
+    "album": "Solar Fire",
+    "year": null,
+    "genre": "Progressive Rock",
+    "coverImage": "covers/PXL_20251122_102017888.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 38,
     "artist": "Mozart / Bach / Lortzing / Nicolai / Mendelssohn",
     "album": "Eine kleine Nachtmusik",
     "year": null,
     "genre": "Classical",
-    "coverImage": "covers/mozart.jpg",
-    "userImage": "PXL_20251122_100755920.jpg",
+    "coverImage": "covers/PXL_20251122_100755920.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 39,
+    "artist": "Neerlands Hoop (in de muis)",
+    "album": "Milhemus van emus leegend",
+    "year": null,
+    "genre": "Dutch Rock",
+    "coverImage": "covers/PXL_20251122_102059598.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 40,
+    "artist": "Neerlands Hoop Express",
+    "album": "Flodder",
+    "year": null,
+    "genre": "Dutch Rock",
+    "coverImage": "covers/PXL_20251122_102523593.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 41,
+    "artist": "Ennio Morricone",
+    "album": "Once Upon a Time in the West",
+    "year": null,
+    "genre": "Soundtrack",
+    "coverImage": "covers/PXL_20251122_102747721.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 42,
+    "artist": "Pink Floyd",
+    "album": "Obscured by Clouds",
+    "year": 1972,
+    "genre": "Progressive Rock",
+    "coverImage": "covers/PXL_20251122_102714500.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 43,
+    "artist": "Queen",
+    "album": "A Day at the Races",
+    "year": null,
+    "genre": "Rock",
+    "coverImage": "covers/PXL_20251122_102432462.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 44,
+    "artist": "Queen",
+    "album": "A Night at the Opera",
+    "year": null,
+    "genre": "Rock",
+    "coverImage": "covers/PXL_20251122_102852598.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 45,
+    "artist": "Rob de Nijs",
+    "album": "Met je ogen dicht",
+    "year": null,
+    "genre": "Dutch Pop",
+    "coverImage": "covers/PXL_20251122_102542764.MP.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 46,
+    "artist": "The Rolling Stones",
+    "album": "Rolling Stones",
+    "year": null,
+    "genre": "Rock",
+    "coverImage": "covers/original_009453c7-cdb0-400c-8857-cee52cd5dc78_PXL_20251122_101840892.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 47,
+    "artist": "Slade",
+    "album": "Coz I Luv You",
+    "year": null,
+    "genre": "Glam Rock",
+    "coverImage": "covers/PXL_20251122_101941430.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 48,
+    "artist": "Slade",
+    "album": "Slade Alive!",
+    "year": null,
+    "genre": "Glam Rock",
+    "coverImage": "covers/PXL_20251122_101924231.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 49,
+    "artist": "Slade",
+    "album": "Sladest",
+    "year": null,
+    "genre": "Glam Rock",
+    "coverImage": "covers/PXL_20251122_102846204.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 50,
+    "artist": "Slade",
+    "album": "Slayed?",
+    "year": null,
+    "genre": "Glam Rock",
+    "coverImage": "covers/PXL_20251122_102440943.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 51,
+    "artist": "Toontje Lager",
+    "album": "Er Op Of Er Onder",
+    "year": null,
+    "genre": "Dutch Pop",
+    "coverImage": "covers/PXL_20251122_102503400.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 52,
+    "artist": "Vandenberg",
+    "album": "Vandenberg",
+    "year": null,
+    "genre": "Heavy Metal",
+    "coverImage": "covers/PXL_20251122_102551873.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 53,
+    "artist": "Various Artists",
+    "album": "Accordeon-Parade",
+    "year": null,
+    "genre": "Accordion",
+    "coverImage": "covers/PXL_20251122_102533508.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 54,
+    "artist": "Various Artists",
+    "album": "Love & Music",
+    "year": null,
+    "genre": "Pop",
+    "coverImage": "covers/original_20cbbeca-b564-4df3-a016-c77acd531451_PXL_20251122_101906726.jpg",
+    "status": "complete",
+    "tracks": []
+  },
+  {
+    "id": 55,
+    "artist": "Yes",
+    "album": "Close to the Edge",
+    "year": null,
+    "genre": "Progressive Rock",
+    "coverImage": "covers/PXL_20251122_102809010.jpg",
+    "status": "complete",
     "tracks": []
   }
 ]
