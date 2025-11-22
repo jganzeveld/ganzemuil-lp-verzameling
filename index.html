@@ -137,6 +137,7 @@
             .control-group {
                 width: 100%;
                 min-width: auto;
+                transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
             }
 
             .control-group.search-group {
@@ -147,6 +148,16 @@
 
             .control-group:not(.search-group) {
                 padding: 12px;
+                max-height: 200px;
+                opacity: 1;
+                overflow: hidden;
+            }
+
+            .controls.scrolled .control-group:not(.search-group) {
+                max-height: 0;
+                padding: 0 12px;
+                opacity: 0;
+                pointer-events: none;
             }
         }
 
@@ -540,11 +551,11 @@
                 <div class="control-group">
                     <label for="sortFilter">Sort By</label>
                     <select id="sortFilter">
+                        <option value="popularity">Popularity</option>
                         <option value="artist-az">Artist (A-Z)</option>
                         <option value="artist-za">Artist (Z-A)</option>
                         <option value="year-asc">Year (Oldest First)</option>
                         <option value="year-desc">Year (Newest First)</option>
-                        <option value="popularity">Popularity</option>
                     </select>
                 </div>
 
@@ -768,9 +779,26 @@
             document.getElementById('search').value = '';
             document.getElementById('genreFilter').value = '';
             document.getElementById('artistFilter').value = '';
-            document.getElementById('sortFilter').value = 'artist-az';
+            document.getElementById('sortFilter').value = 'popularity';
             filterRecords();
         }
+
+        // Handle mobile scroll to hide/show filters
+        function handleMobileScroll() {
+            if (window.innerWidth <= 768) {
+                const controls = document.querySelector('.controls');
+                const scrollThreshold = 100;
+
+                if (window.scrollY > scrollThreshold) {
+                    controls.classList.add('scrolled');
+                } else {
+                    controls.classList.remove('scrolled');
+                }
+            }
+        }
+
+        window.addEventListener('scroll', handleMobileScroll);
+        window.addEventListener('resize', handleMobileScroll);
 
         // Select record and show modal
         function selectRecord(id) {
