@@ -21,12 +21,12 @@
         }
 
         .header {
-            background: linear-gradient(135deg, #f5e6d3 0%, #e8d4b8 100%);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            padding: 24px 0;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            padding: 40px 0;
             margin-bottom: 32px;
             position: relative;
-            overflow: visible;
+            overflow: hidden;
         }
 
         .header-content {
@@ -37,32 +37,51 @@
             align-items: center;
             justify-content: space-between;
             position: relative;
+            min-height: 140px;
         }
 
         .header-logo {
-            height: 200px;
+            height: 220px;
             width: auto;
             position: absolute;
-            right: 24px;
-            top: 50%;
-            transform: translateY(-50%);
-            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.15));
+            right: 40px;
+            bottom: -20px;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));
             z-index: 10;
         }
 
         @media (max-width: 768px) {
             .header-logo {
-                height: 120px;
+                height: 140px;
                 right: 12px;
+                bottom: -10px;
+            }
+
+            .header-content {
+                min-height: 100px;
             }
         }
 
         h1 {
-            font-size: 28px;
-            font-weight: 400;
-            color: #202124;
-            letter-spacing: -0.5px;
+            font-size: 36px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 50%, #ffd700 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: -1px;
             flex: 1;
+            text-transform: uppercase;
+            position: relative;
+            z-index: 5;
+            max-width: 60%;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+                max-width: 55%;
+            }
         }
 
         .container {
