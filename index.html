@@ -25,6 +25,8 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             padding: 24px 0;
             margin-bottom: 32px;
+            position: relative;
+            overflow: visible;
         }
 
         .header-content {
@@ -33,12 +35,26 @@
             padding: 0 24px;
             display: flex;
             align-items: center;
-            gap: 24px;
+            justify-content: space-between;
+            position: relative;
         }
 
         .header-logo {
-            height: 80px;
+            height: 200px;
             width: auto;
+            position: absolute;
+            right: 24px;
+            top: 50%;
+            transform: translateY(-50%);
+            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.15));
+            z-index: 10;
+        }
+
+        @media (max-width: 768px) {
+            .header-logo {
+                height: 120px;
+                right: 12px;
+            }
         }
 
         h1 {
@@ -435,8 +451,8 @@
 <body>
     <div class="header">
         <div class="header-content">
-            <img src="goose.jpg" alt="Ganzemuil Logo" class="header-logo">
             <h1>LP collectie huize Ganzemuil</h1>
+            <img src="goose.png" alt="Ganzemuil Logo" class="header-logo">
         </div>
     </div>
 
