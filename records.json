@@ -7,7 +7,7 @@
     "genre": "Rock",
     "coverImage": "covers/original_ef535f29-ac8f-4ece-bf43-f7eb0cbef5d1_PXL_20251122_101759448.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Dreadlock Holiday", "For You and I", "Take These Chains", "Shock on the Tube (Don't Want Love)", "Last Night Listen", "Anonymous Alcoholic", "Reds in My Bed", "Lifeline", "Tokyo", "Old Mister Time", "From Rochdale to Ocho Rios", "Everything You Wanted to Know About"]
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102127188.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["I Robot", "I Wouldn't Want To Be Like You", "Some Other Time", "Breakdown", "Don't Let It Show", "The Voice", "Nucleus", "Day After Day (The Show Must Go On)", "Total Eclipse", "Genesis Ch.1. V.32"]
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "genre": "Pop",
     "coverImage": "covers/PXL_20251122_102759155.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["In The Meantime I Will Sing", "The World Between Us", "You Can Do It", "Wonderland", "Oh Day", "The Alternative Way", "See My Sadness", "You Showed Me How", "Learn All The Secrets", "Going Strong"]
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "genre": "Christmas",
     "coverImage": "covers/original_45d97ae0-f90c-450b-aa67-cfeda956f241_PXL_20251122_101823409.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Komt Allen Tezamen", "Hoe Leit Dit Kindeke", "Nu Syt Wellekome", "O Kindeke Klein", "In 't Stalleke Van Bethlehem", "Herders Hij Is Geboren", "Stille Nacht, Heilige Nacht", "De Herdertjes Lagen Bij Nachte", "Herders Hoort", "Ere Zij God", "Klein Klein Jezuken", "Maria Die Zoude Naar Bethlehem Gaan", "Gloria In Excelsis Deo", "Er Is Een Kindeke Geboren", "O Denneboom, O Denneboom", "Slaap Zacht", "Geen Wiegje Als Rustplaats", "In Bethlehems Stal", "Herdersliedje", "Midden In De Winternacht", "Er Is Uit 's Werelds Duist're Wolken", "Heerlijk Klonk Het Lied Der Eng'len", "Een Roze Fris Ontloken", "Hoort Hoe De Feestklokken Schallen", "Komt, Verwondert U Hier, Mensen"]
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102009609.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Rock 'N' Roll Fantasy", "Crazy Circles", "Gone, Gone, Gone", "Evil Wind", "Early In The Morning", "Lonely For Your Love", "Oh, Atlanta", "Take The Time", "Rhythm Machine", "She Brings Me Love"]
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102645504.MP.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Love Me Do", "Please Please Me", "From Me To You", "She Loves You", "I Want To Hold Your Hand", "All My Loving", "Can't Buy Me Love", "A Hard Day's Night", "And I Love Her", "Eight Days A Week", "I Feel Fine", "Ticket To Ride", "Yesterday", "Help!", "You've Got To Hide Your Love Away", "We Can Work It Out", "Day Tripper", "Drive My Car", "Norwegian Wood (This Bird Has Flown)", "Nowhere Man", "Michelle", "In My Life", "Girl", "Paperback Writer", "Eleanor Rigby", "Yellow Submarine"]
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102635043.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Strawberry Fields Forever", "Penny Lane", "Sgt. Pepper's Lonely Hearts Club Band", "With A Little Help From My Friends", "Lucy In The Sky With Diamonds", "A Day In The Life", "All You Need Is Love", "I Am The Walrus", "Hello Goodbye", "The Fool On The Hill", "Magical Mystery Tour", "Lady Madonna", "Hey Jude", "Revolution", "Back In The U.S.S.R.", "While My Guitar Gently Weeps", "Ob-La-Di, Ob-La-Da", "Get Back", "Don't Let Me Down", "The Ballad Of John & Yoko", "Old Brown Shoe", "Here Comes The Sun", "Come Together", "Something", "Octopus's Garden", "Let It Be", "Across The Universe", "The Long And Winding Road"]
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "genre": "Dutch",
     "coverImage": "covers/PXL_20251122_102722963.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Gouden Regen (Oleanders)", "Net Toen Ik Jou Nodig Had (Just When I Needed You Most)", "Ik Mis Je Zo (Blue Bayou)", "Ik Zeg Niet Dat Ik Van Je Hou (Je Viens Pas Te Parler D'amour)", "Eindelijk Alleen (J'etends Siffler Le Train)", "Zo Ben Jij (So Bist Du)", "Ode Aan Maastricht (Prendre Un Enfant)", "Bla Bla Bla", "Droom (Blu)", "Anne Frank (Chanson Pour Anna)", "Dimitrimou (La Fête De Juilet-Juilet)", "Je Hoeft Me Niet Te Zeggen Hoe Ik Leven Moet (A Me Ni Piazze Vivero A La Grande)"]
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "genre": "Dutch",
     "coverImage": "covers/PXL_20251122_102625389.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["15 Jaar (15 Ans)", "Vergeven, Voorbij En Vergeten (Marie)", "Wonderkind (Le Costume Blanc)", "Onze Straat (Le Bonheur De Vivre En Commun)", "Ik Hield Van Jou (You Needed Me)", "Marjan (Les Remparts De Varsovie)", "Net Als In 'T Begin (Les Vieux Mariés)", "De Eerste Keer (La Lampe)", "Marinella (I Giorni Dell'arcobaleno)", "Samen Zijn We Rijk (Crossroads)", "Wij Zitten Goed Voor De TV (Voir Un Ami Pleurer)", "Slaap Maar (Rollin')"]
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "genre": "Christmas",
     "coverImage": "covers/PXL_20251122_102900238.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["It's Beginning To Look A Lot Like Christmas", "Santa Claus Is Coming To Town", "Jingle Bells", "White Christmas", "All I Want For Christmas Is You", "Holly Jolly Christmas", "Santa Baby", "Have Yourself A Merry Little Christmas", "Christmas (Baby Please Come Home)", "Silent Night", "Blue Christmas", "Cold December Night", "I'll Be Home For Christmas", "Ave Maria", "Mis Deseos/Feliz Navidad"]
   },
   {
     "id": 11,
@@ -117,7 +117,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102113612.jpg",
     "status": "vinyl_only",
-    "tracks": []
+    "tracks": ["Carry On", "Teach Your Children", "Almost Cut My Hair", "Helpless", "Woodstock", "Déjà Vu", "Our House", "4 + 20", "Country Girl", "Everybody I Love You"]
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102041888.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Burn", "Might Just Take Your Life", "Lay Down, Stay Down", "Sail Away", "You Fool No One", "What's Goin' on Here", "Mistreated", "'A' 200"]
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102423215.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["First Movement: Moderato - Allegro", "Second Movement: Part 1 - Andante", "Second Movement: Part 2", "Third Movement: Vivace - Presto"]
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102049219.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Fireball", "No No No", "Demon's Eye", "Anyone's Daughter", "The Mule", "Fools", "No One Came"]
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102819681.MP.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Speed King", "Bloodsucker", "Child In Time", "Flight Of The Rat", "Into The Fire", "Living Wreck", "Hard Lovin' Man"]
   },
   {
     "id": 17,
@@ -167,7 +167,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102025468.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Highway Star", "Maybe I'm a Leo", "Pictures of Home", "Never Before", "Smoke On The Water", "Lazy", "Space Truckin'"]
   },
   {
     "id": 18,
@@ -177,7 +177,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102839970.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Highway Star", "Child In Time", "Smoke On The Water", "The Mule", "Strange Kind Of Woman", "Lazy", "Space Truckin'"]
   },
   {
     "id": 19,
@@ -187,7 +187,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102034198.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Stormbringer", "Love Don't Mean a Thing", "Holy Man", "Hold On", "Lady Double Dealer", "You Can't Do It Right", "High Ball Shooter", "The Gypsy", "Soldier of Fortune"]
   },
   {
     "id": 20,
@@ -197,7 +197,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102415302.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Woman From Tokyo", "Mary Long", "Super Trouper", "Smooth Dancer", "Rat Bat Blue", "Place in Line", "Our Lady"]
   },
   {
     "id": 21,
@@ -227,7 +227,7 @@
     "genre": "Dutch",
     "coverImage": "covers/original_aa9f1da6-b0ad-469f-af8e-e98fa2bcef2d_PXL_20251122_101859836.jpg",
     "status": "empty_case",
-    "tracks": []
+    "tracks": ["Is Dit Alles", "Belle Hélène", "Vergeet Me", "Situatie", "Okee", "Winnetoe", "Doris Day", "Radeloos", "De Eerste X", "Tijd Genoeg", "Liever Dan Lief", "Nachtmerrie (Op Hol)"]
   },
   {
     "id": 24,
@@ -237,7 +237,7 @@
     "genre": "Disco",
     "coverImage": "covers/PXL_20251122_101933040.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Once Upon A Time", "Faster And Faster To Nowhere", "Fairy Tale High", "Say Something Nice", "Now I Need You", "Working The Midnight Shift", "Queen For A Day", "I Love You", "If You Got It Flaunt It", "A Man Like You", "Sweet Romance", "(Theme) Once Upon A Time", "Dance Into My Life", "Rumour Has It", "I Love You", "Happily Ever After", "(Theme) Once Upon A Time"]
   },
   {
     "id": 25,
@@ -257,7 +257,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102826999.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Hotel California", "New Kid in Town", "Life in the Fast Lane", "Wasted Time", "Wasted Time (Reprise)", "Victim of Love", "Pretty Maids All In A Row", "Try And Love Again", "The Last Resort"]
   },
   {
     "id": 27,
@@ -267,7 +267,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102616173.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["One of These Nights", "Too Many Hands", "Hollywood Waltz", "Journey of the Sorcerer", "Lyin' Eyes", "Take It to the Limit", "Visions", "After the Thrill Is Gone", "I Wish You Peace"]
   },
   {
     "id": 28,
@@ -277,7 +277,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102833362.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Turn To Stone", "It's Over", "Sweet Talkin' Woman", "Across The Border", "Night In The City", "Starlight", "Jungle", "Believe Me Now", "Steppin' Out", "Standin' In The Rain", "Big Wheels", "Summer And Lightning", "Mr. Blue Sky", "Sweet Is The Night", "The Whale", "Birmingham Blues", "Wild West Hero"]
   },
   {
     "id": 29,
@@ -287,7 +287,7 @@
     "genre": "Rock",
     "coverImage": "covers/original_c3a05d56-0394-4ccf-8e91-78fa21dcea1d_PXL_20251122_101914345.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Monday Morning", "Warm Ways", "Blue Letter", "Rhiannon", "Over My Head", "Crystal", "Say You Love Me", "Landslide", "World Turning", "Sugar Daddy", "I'm so Afraid"]
   },
   {
     "id": 30,
@@ -297,7 +297,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102205017.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["The Ark", "Baker Street", "Right Down the Line", "City to City", "Stealin' Time", "Mattie's Rag", "Whatever's Written in Your Heart", "Home and Dry", "Island", "Waiting for the Day"]
   },
   {
     "id": 31,
@@ -317,7 +317,7 @@
     "genre": "Country",
     "coverImage": "covers/PXL_20251122_100737615 (1).jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["The Wreck Of The Number Nine", "Welcome To My World", "Bimbo", "(There'll Be Blue Birds Over) The White Cliffs Of Dover", "I Won't Forget You", "Mexican Joe", "A Letter To My Heart", "Just Walking In The Rain", "The Streets Of Laredo", "I Love You Because", "Missing Angel", "Danny Boy", "Blue Side Of Lonesome", "Auf Wiedersehn Sweetheart"]
   },
   {
     "id": 33,
@@ -327,7 +327,7 @@
     "genre": "Rock",
     "coverImage": "covers/original_4ffe5216-654f-4f4d-952b-e473d3913c05_PXL_20251122_101814076.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Hitchcock Railway", "She Came In Through The Bathroom Window", "Marjorine", "She's So Good To Me", "Hello Little Friend", "With A Little Help From My Friends", "Delta Lady", "Darling Be Home Soon", "Do I Still Figure In Your Life?", "Feeling Alright", "Something's Coming On", "The Letter"]
   },
   {
     "id": 34,
@@ -337,7 +337,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_101949770.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Another World", "Chinatown", "Steppin' Out", "Breaking Us in Two", "Target", "Real Men", "Cancer", "T.V. Age", "A Slow Song"]
   },
   {
     "id": 35,
@@ -357,7 +357,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_100737615.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Moving", "The Saxophone Song", "Strange Phenomena", "Kite", "The Man With The Child In His Eyes", "Wuthering Heights", "James And The Cold Gun", "Feel It", "Oh To Be In Love", "L'Amour Looks Something Like You", "Them Heavy People", "Room For The Life", "The Kick Inside"]
   },
   {
     "id": 37,
@@ -367,7 +367,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102017888.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Father Of Day, Father Of Night", "In The Beginning, Darkness", "Pluto The Dog", "Solar Fire", "Saturn, Lord Of The Ring, Mercury The Winged Messenger", "Earth, The Circle"]
   },
   {
     "id": 38,
@@ -407,7 +407,7 @@
     "genre": "Soundtrack",
     "coverImage": "covers/PXL_20251122_102747721.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Once Upon a Time in the West", "As A Judgment", "Farewell to Cheyenne", "The Transgression", "The First Tavern", "The Second Tavern", "Man with the Harmonica", "A Dimly Lit Room", "Bad Orchestra", "The Man", "Jill's America", "Death Rattle", "Finale"]
   },
   {
     "id": 42,
@@ -417,7 +417,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102714500.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Obscured by Clouds", "When You're In", "Burning Bridges", "The Gold It's In The...", "Wot's... Uh the Deal?", "Mudmen", "Childhood's End", "Free Four", "Stay", "Absolutely Curtains"]
   },
   {
     "id": 43,
@@ -427,7 +427,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102432462.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Tie Your Mother Down", "You Take My Breath Away", "Long Away", "The Millionaire Waltz", "You And I", "Somebody To Love", "White Man", "Good Old Fashioned Loverboy", "Drowse", "Teo Torriatte (Let Us Cling Together)"]
   },
   {
     "id": 44,
@@ -437,7 +437,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102852598.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Death On Two Legs", "Lazing On A Sunday Afternoon", "I'm In Love With My Car", "You're My Best Friend", "'39", "Sweet Lady", "Seaside Rendezvous", "The Prophet's Song", "Love Of My Life", "Good Company", "Bohemian Rhapsody", "God Save The Queen"]
   },
   {
     "id": 45,
@@ -447,7 +447,7 @@
     "genre": "Dutch",
     "coverImage": "covers/PXL_20251122_102542764.MP.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Nu De Nachten Nog", "Zondag", "Wat Een Waanzin", "Hilda", "Hier, In Dit Hotel", "Roze Droom", "Alleen Is Maar Alleen", "Wat Was Het Waard?", "Zeven Dagen", "Liever Dan Lieveling", "Signalement", "Foto Van Vroeger"]
   },
   {
     "id": 46,
@@ -477,7 +477,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_101924231.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Hear Me Calling", "In Like a Shot From My Gun", "Darling Be Home Soon", "Know Who You Are", "Keep on Rocking", "Get Down And Get With It", "Born To Be Wild"]
   },
   {
     "id": 49,
@@ -487,7 +487,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102846204.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Cum On Feel The Noize", "Look Wot You Dun", "Gudbuy T'Jane", "One Way Hotel", "Skweeze Me, Pleeze Me", "Pouk Hill", "The Shape Of Things To Come", "Take Me Back 'Ome", "Coz I Luv You", "Wild Winds Are Blowin'", "Know Who You Are", "Get Down And Get With It", "Look At Last Nite", "Mama Weer All Crazee Now"]
   },
   {
     "id": 50,
@@ -497,7 +497,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102440943.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["How D'You Ride?", "The Whole World Goin' Crazee", "Look At Last Nite", "I Won't Let It 'Appen Again", "Move Over", "Gudbuy T'Jane", "Gudbuy Gudbuy", "Mama Weer All Crazee Now", "I Don't Mind", "Let The Good Times Roll/Feel So Fine"]
   },
   {
     "id": 51,
@@ -507,7 +507,7 @@
     "genre": "Dutch",
     "coverImage": "covers/PXL_20251122_102503400.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Net Als In De Film", "In Gedachten", "Viel Die Maar", "Niks Na De Dood", "Lente In Twente", "Verdriet In Het Verschiet", "Ben Jij Ook Zo Bang", "Het Beest In Mij", "Het Doet Pijn", "Reperteer"]
   },
   {
     "id": 52,
@@ -517,7 +517,7 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102551873.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Your Love Is In Vain", "Back On My Feet", "Wait", "Burning Heart", "Ready For You", "Too Late", "Nothing To Lose", "Lost In A City", "Out In The Streets"]
   },
   {
     "id": 53,
@@ -547,6 +547,6 @@
     "genre": "Rock",
     "coverImage": "covers/PXL_20251122_102809010.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Close to the Edge", "And You and I", "Siberian Khatru"]
   }
 ]

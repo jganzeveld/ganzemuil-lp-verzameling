@@ -232,6 +232,165 @@
         .reset-btn:active {
             background: #1557b0;
         }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            animation: fadeIn 0.2s ease;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 8px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .modal-header {
+            padding: 24px;
+            border-bottom: 1px solid #e8eaed;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .modal-title-section {
+            flex: 1;
+        }
+
+        .modal-artist {
+            font-size: 20px;
+            font-weight: 500;
+            color: #202124;
+            margin-bottom: 4px;
+        }
+
+        .modal-album {
+            font-size: 16px;
+            color: #5f6368;
+            margin-bottom: 8px;
+        }
+
+        .modal-meta {
+            display: flex;
+            gap: 12px;
+            margin-top: 8px;
+        }
+
+        .modal-year, .modal-genre {
+            font-size: 13px;
+            color: #80868b;
+        }
+
+        .modal-genre-badge {
+            background: #e8f0fe;
+            color: #1967d2;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 28px;
+            color: #5f6368;
+            cursor: pointer;
+            padding: 0;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background 0.2s;
+        }
+
+        .close-btn:hover {
+            background: #f1f3f4;
+        }
+
+        .modal-body {
+            padding: 24px;
+        }
+
+        .modal-cover {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto 24px;
+            display: block;
+            border-radius: 4px;
+        }
+
+        .tracklist-header {
+            font-size: 16px;
+            font-weight: 500;
+            color: #202124;
+            margin-bottom: 16px;
+        }
+
+        .tracklist {
+            list-style: none;
+        }
+
+        .track-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #e8eaed;
+            display: flex;
+            gap: 16px;
+        }
+
+        .track-item:last-child {
+            border-bottom: none;
+        }
+
+        .track-number {
+            color: #80868b;
+            font-size: 14px;
+            min-width: 24px;
+        }
+
+        .track-name {
+            color: #202124;
+            font-size: 14px;
+            flex: 1;
+        }
+
+        .no-tracks {
+            color: #80868b;
+            font-style: italic;
+            font-size: 14px;
+            text-align: center;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
@@ -274,6 +433,28 @@
         </div>
 
         <div class="records-grid" id="recordsGrid"></div>
+    </div>
+
+    <!-- Modal -->
+    <div id="recordModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title-section">
+                    <div class="modal-artist" id="modalArtist"></div>
+                    <div class="modal-album" id="modalAlbum"></div>
+                    <div class="modal-meta">
+                        <span class="modal-year" id="modalYear"></span>
+                        <span class="modal-genre-badge" id="modalGenre"></span>
+                    </div>
+                </div>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img id="modalCover" class="modal-cover" src="" alt="">
+                <div class="tracklist-header">Tracklist</div>
+                <div id="tracklistContainer"></div>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -394,11 +575,59 @@
             filterRecords();
         }
 
-        // Select record (placeholder for phase 2)
+        // Select record and show modal
         function selectRecord(id) {
-            console.log('Selected record:', id);
-            // Phase 2: Show track listing
+            const record = allRecords.find(r => r.id === id);
+            if (!record) return;
+
+            // Populate modal with record info
+            document.getElementById('modalArtist').textContent = record.artist;
+            document.getElementById('modalAlbum').textContent = record.album;
+            document.getElementById('modalYear').textContent = record.year || 'Year unknown';
+            document.getElementById('modalGenre').textContent = record.genre;
+            document.getElementById('modalCover').src = record.coverImage;
+            document.getElementById('modalCover').alt = record.album;
+
+            // Populate tracklist
+            const tracklistContainer = document.getElementById('tracklistContainer');
+            if (record.tracks && record.tracks.length > 0) {
+                const tracklistHTML = '<ul class="tracklist">' +
+                    record.tracks.map((track, index) => `
+                        <li class="track-item">
+                            <span class="track-number">${index + 1}.</span>
+                            <span class="track-name">${track}</span>
+                        </li>
+                    `).join('') +
+                    '</ul>';
+                tracklistContainer.innerHTML = tracklistHTML;
+            } else {
+                tracklistContainer.innerHTML = '<div class="no-tracks">No track information available</div>';
+            }
+
+            // Show modal
+            document.getElementById('recordModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
         }
+
+        // Close modal
+        function closeModal() {
+            document.getElementById('recordModal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside
+        document.getElementById('recordModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
+        // Close modal with ESC key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
 
         // Event listeners
         document.getElementById('search').addEventListener('input', filterRecords);
