@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "artist": "Kate Bush",
+    "album": "The Kick Inside",
+    "year": 1978,
+    "genre": "Art Rock",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/en/4/4e/KateBushTheKickInside.jpg",
+    "userImage": "PXL_20251122_100737615.jpg",
+    "tracks": []
+  },
+  {
+    "id": 2,
+    "artist": "Jim Reeves",
+    "album": "Golden Records",
+    "year": null,
+    "genre": "Country",
+    "coverImage": "https://i.discogs.com/yqyVFWVe-OP7ug5eWmLlwfXO8iF9jNiQB8FQP0AqR8A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0ODY0/NzQtMTQ4NTk1NTY2/Mi05NzUzLmpwZWc.jpeg",
+    "userImage": "PXL_20251122_100737615 (1).jpg",
+    "tracks": []
+  },
+  {
+    "id": 3,
+    "artist": "Mozart / Bach / Lortzing / Nicolai / Mendelssohn",
+    "album": "Eine kleine Nachtmusik",
+    "year": null,
+    "genre": "Classical",
+    "coverImage": "https://www.deutschegrammophon.com/static/dg-gallery/_gallery/covers/1200/2544005.jpg",
+    "userImage": "PXL_20251122_100755920.jpg",
+    "tracks": []
+  }
+]
