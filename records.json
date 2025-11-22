@@ -282,12 +282,12 @@
   {
     "id": 29,
     "artist": "Fleetwood Mac",
-    "album": "Fleetwood Mac",
-    "year": "1975",
+    "album": "The Pious Bird of Good Omen",
+    "year": "1969",
     "genre": "Rock",
     "coverImage": "covers/original_c3a05d56-0394-4ccf-8e91-78fa21dcea1d_PXL_20251122_101914345.jpg",
     "status": "complete",
-    "tracks": ["Monday Morning", "Warm Ways", "Blue Letter", "Rhiannon", "Over My Head", "Crystal", "Say You Love Me", "Landslide", "World Turning", "Sugar Daddy", "I'm so Afraid"]
+    "tracks": ["Need Your Love So Bad", "Rambling Pony", "I Believe My Time Ain't Long", "The Sun Is Shining", "Albatross", "Black Magic Woman", "Jigsaw Puzzle Blues", "Stop Messin' Round", "Looking For Somebody", "Coming Home", "The Big Boat", "Just The Blues"]
   },
   {
     "id": 30,
@@ -452,12 +452,12 @@
   {
     "id": 46,
     "artist": "The Rolling Stones",
-    "album": "Rolling Stones",
-    "year": "~1970",
+    "album": "The Rolling Stones",
+    "year": "1964",
     "genre": "Rock",
     "coverImage": "covers/original_009453c7-cdb0-400c-8857-cee52cd5dc78_PXL_20251122_101840892.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Route 66", "I Just Want to Make Love to You", "Honest I Do", "I Need You Baby (Mona)", "Now I've Got a Witness", "Little by Little", "I'm a King Bee", "Carol", "Tell Me (You're Coming Back)", "Can I Get a Witness", "You Can Make It If You Try", "Walking the Dog"]
   },
   {
     "id": 47,
@@ -548,5 +548,25 @@
     "coverImage": "covers/PXL_20251122_102809010.jpg",
     "status": "complete",
     "tracks": ["Close to the Edge", "And You and I", "Siberian Khatru"]
+  },
+  {
+    "id": 56,
+    "artist": "Pink Floyd",
+    "album": "Animals",
+    "year": "1977",
+    "genre": "Rock",
+    "coverImage": "covers/pf.jpg",
+    "status": "complete",
+    "tracks": ["Pigs on the Wing (Part 1)", "Dogs", "Pigs (Three Different Ones)", "Sheep", "Pigs on the Wing (Part 2)"]
+  },
+  {
+    "id": 57,
+    "artist": "Various Artists",
+    "album": "Tien Jaar Nederlandse Successen",
+    "year": "1959",
+    "genre": "Dutch",
+    "coverImage": "covers/philips.jpg",
+    "status": "complete",
+    "tracks": ["Music Maestro, Please", "Hoor, De Muzikanten", "Als Een Wilde Orchidee", "Kijk Eens In De Poppetjes Van Mijn Ogen", "Zijn Het Je Ogen", "Malle Vent Ja", "Ik Wacht Op Jou", "Een Matrooos", "De Orgelman", "Juan Uit Santa Fé", "Lentekind"]
   }
 ]
