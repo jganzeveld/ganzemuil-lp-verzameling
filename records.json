@@ -301,13 +301,13 @@
   },
   {
     "id": 31,
-    "artist": "Jan en Astrid",
-    "album": "Unknown Album",
-    "year": "~1975",
+    "artist": "Boudewijn de Groot",
+    "album": "Van een afstand",
+    "year": "1980",
     "genre": "Dutch",
     "coverImage": "covers/PXL_20251122_102450473.jpg",
     "status": "complete",
-    "tracks": []
+    "tracks": ["Een Tip van de Sluier", "Zonder Jou", "Als het Bericht Slecht Is, Dood Je de Boodschapper", "Zolang Ik Niet Beweeg", "Captain's Table", "Kindertijd", "Hoogtevrees", "De Zwemmer", "Telkens Weer", "Vertrek", "Geen Carnaval"]
   },
   {
     "id": 32,
