@@ -461,7 +461,7 @@
             <div class="controls-row">
                 <div class="control-group">
                     <label for="search">Search</label>
-                    <input type="text" id="search" placeholder="Search by artist or album...">
+                    <input type="text" id="search" placeholder="Search by artist, album, or song...">
                 </div>
 
                 <div class="control-group">
@@ -609,12 +609,17 @@
             const artistFilter = document.getElementById('artistFilter').value;
 
             filteredRecords = allRecords.filter(record => {
-                const matchesSearch = record.artist.toLowerCase().includes(searchTerm) ||
-                                     record.album.toLowerCase().includes(searchTerm);
-                const matchesGenre = !genreFilter || record.genre === genreFilter;
-                const matchesArtist = !artistFilter || record.artist === artistFilter;
+                const matchesArtist = record.artist.toLowerCase().includes(searchTerm);
+                const matchesAlbum = record.album.toLowerCase().includes(searchTerm);
+                const matchesTracks = record.tracks && record.tracks.some(track =>
+                    track.toLowerCase().includes(searchTerm)
+                );
 
-                return matchesSearch && matchesGenre && matchesArtist;
+                const matchesSearch = matchesArtist || matchesAlbum || matchesTracks;
+                const matchesGenre = !genreFilter || record.genre === genreFilter;
+                const matchesArtistFilter = !artistFilter || record.artist === artistFilter;
+
+                return matchesSearch && matchesGenre && matchesArtistFilter;
             });
 
             displayRecords();
